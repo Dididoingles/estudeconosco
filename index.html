@@ -382,7 +382,8 @@
     .hero-center {
       position: absolute;
       left: 48%;
-      top: -10px;
+      top: -20px;
+      opacity: 60%;
       transform: translateX(-50%);
       width: var(--center-image-width);
       display: flex;
@@ -444,6 +445,7 @@
       display: flex;
       justify-content: center;
       margin-top: 8rem;
+      margin-bottom: -100px;
     }
 
     .big-title {
@@ -455,7 +457,7 @@
       letter-spacing: -2px;
       line-height: 0.9;
       display: inline-block;
-      margin: 0 auto;
+      margin-top: 50px;
       pointer-events: auto;
       min-height: 1em;
       transition: color 0.4s ease, -webkit-text-stroke 0.4s ease;
@@ -1058,8 +1060,9 @@
       .hero-center {
         position: relative;
         left: 0;
-        top: 0;
+        top: -10px;
         transform: none;
+        opacity: 60%;
         width: 100%;
         margin: 1.5rem 0 0 0;
         -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 95%);
@@ -1091,10 +1094,12 @@
         font-size: 7vw;
         letter-spacing: -0.5px;
         -webkit-text-stroke: 1px var(--dark-red);
+        margin-top: -100px;
       }
 
       .hero-bottom {
-        margin-top: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: -50px;
       }
 
       .feedback-section {
@@ -1287,9 +1292,15 @@
         </button>
       </div>
       <nav class="drawer-links">
+        <a href="https://wa.me/5516993272278" class="drawer-link">
+            <i class="fa-brands fa-whatsapp"></i> Falar com a Di
+          </a>
         <a href="pages/metodo/" class="drawer-link">
           <i class="fa-solid fa-book-open"></i> Método
         </a>
+        <a href="https://dididoingles.github.io/apps/" target="_blank" rel="noopener noreferrer" class="drawer-link">
+            <i class="fas fa-lightbulb ecosystem-icon"></i> Us digital
+          </a>
         <a href="pages/valores/" class="drawer-link">
           <i class="fa-solid fa-calculator"></i> Orçamento
         </a>
@@ -1299,9 +1310,7 @@
         <a href="pages/alunos/" class="drawer-link">
           <i class="fa-solid fa-user-graduate"></i> Sou Aluno
         </a>
-        <a href="https://wa.me/5516993272278" class="drawer-link">
-          <i class="fa-brands fa-whatsapp"></i> Falar com a Di
-        </a>
+        
         <a href="https://www.instagram.com/dicarvalho.prof/" target="_blank" rel="noopener noreferrer" class="drawer-link">
           <i class="fa-brands fa-instagram"></i> Instagram
         </a>
@@ -1338,7 +1347,7 @@
 
           <!-- Imagem Central -->
           <section class="hero-center">
-            <img src="images/center.png" alt="Professora Diandra de Inglês" class="center-img" id="centerImage">
+            <img src="images/center.webp" alt="Professora Diandra de Inglês" class="center-img" id="centerImage">
           </section>
 
           <!-- Bloco Direito -->
@@ -1408,7 +1417,37 @@
       </div>
 
       <div class="ecosystem-grid">
+
+        <a href="https://wa.me/5516993272278" target="_blank" rel="noopener noreferrer" class="ecosystem-card reveal-on-scroll delay-3">
+            <div>
+              <div class="ecosystem-card-top">
+                <h3 class="ecosystem-card-title">Falar com a Di</h3>
+                <i class="fa-brands fa-whatsapp ecosystem-icon"></i>
+              </div>
+              <p class="ecosystem-card-text">Dúvidas ou agendamentos? Clique para o WhatsApp direto.</p>
+            </div>
+          </a>
+
+          <a href="https://dididoingles.github.io/testyourenglish/" target="_blank" rel="noopener noreferrer" class="ecosystem-card reveal-on-scroll delay-1">
+            <div>
+              <div class="ecosystem-card-top">
+                <h3 class="ecosystem-card-title">Teste de Nivelamento</h3>
+                <i class="fas fa-signal ecosystem-icon"></i>
+              </div>
+              <p class="ecosystem-card-text">Faça o teste rápido e descubra onde você está na jornada. Gratuito.</p>
+            </div>
+          </a>
         
+          <a href="https://dididoingles.github.io/apps/" target="_blank" rel="noopener noreferrer" class="ecosystem-card reveal-on-scroll delay-3">
+            <div>
+              <div class="ecosystem-card-top">
+                <h3 class="ecosystem-card-title">Us digital</h3>
+                <i class="fas fa-lightbulb ecosystem-icon"></i>
+              </div>
+              <p class="ecosystem-card-text">Um espaço digital gratuito para praticar seu Inglês com jogos e outras ferramentas.</p>
+            </div>
+          </a>
+
         <a href="https://dididoingles.github.io/Whiteboard/" target="_blank" rel="noopener noreferrer" class="ecosystem-card reveal-on-scroll delay-1">
           <div>
             <div class="ecosystem-card-top">
@@ -1429,26 +1468,6 @@
           </div>
         </a>
 
-        <a href="https://wa.me/5516993272278" target="_blank" rel="noopener noreferrer" class="ecosystem-card reveal-on-scroll delay-3">
-          <div>
-            <div class="ecosystem-card-top">
-              <h3 class="ecosystem-card-title">Falar com a Di</h3>
-              <i class="fa-brands fa-whatsapp ecosystem-icon"></i>
-            </div>
-            <p class="ecosystem-card-text">Dúvidas ou agendamentos? Clique para o WhatsApp direto.</p>
-          </div>
-        </a>
-
-        <a href="https://dididoingles.github.io/testyourenglish/" target="_blank" rel="noopener noreferrer" class="ecosystem-card reveal-on-scroll delay-1">
-          <div>
-            <div class="ecosystem-card-top">
-              <h3 class="ecosystem-card-title">Teste de Nivelamento</h3>
-              <i class="fas fa-signal ecosystem-icon"></i>
-            </div>
-            <p class="ecosystem-card-text">Faça o teste rápido e descubra onde você está na jornada. Gratuito.</p>
-          </div>
-        </a>
-
         <a href="https://dididoingles.github.io/discoveryourprofile/" target="_blank" rel="noopener noreferrer" class="ecosystem-card reveal-on-scroll delay-2">
           <div>
             <div class="ecosystem-card-top">
@@ -1456,16 +1475,6 @@
               <i class="fas fa-brain ecosystem-icon"></i>
             </div>
             <p class="ecosystem-card-text">Descubra seu estilo dominante de aprendizagem. Gratuito.</p>
-          </div>
-        </a>
-
-        <a href="https://dididoingles.github.io/praticar/" target="_blank" rel="noopener noreferrer" class="ecosystem-card reveal-on-scroll delay-3">
-          <div>
-            <div class="ecosystem-card-top">
-              <h3 class="ecosystem-card-title">Aplicativos</h3>
-              <i class="fas fa-lightbulb ecosystem-icon"></i>
-            </div>
-            <p class="ecosystem-card-text">Uma biblioteca de aplicativos beta para auxiliar alunos e professores.</p>
           </div>
         </a>
 
