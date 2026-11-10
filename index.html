@@ -312,7 +312,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.9rem;
-      z-index: 3;
+      z-index: 6;
       opacity: 0;
       animation: slideFromLeft var(--anim-duration) var(--smooth-easing) forwards;
       animation-delay: 0.1s;
@@ -325,6 +325,7 @@
       color: var(--text-heading);
       line-height: 1.15;
       margin-bottom: 30px;
+      text-wrap: nowrap;
     }
 
     .description-text {
@@ -396,7 +397,7 @@
     }
 
     .center-img {
-      width: 90%;
+      width: 80%;
       height: auto;
       object-fit: contain;
       display: block;
